@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import QWidget
 from PyQt5.QtGui import QColor, QPalette
 
 class Color(QWidget):
-    def __init__(self,color):
+    def __init__(self,color="hot pink"):
         super().__init__()
         # turn on the autoFill 
         self.setAutoFillBackground(True)
